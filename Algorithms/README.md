@@ -3,6 +3,14 @@
 ### Q: How do you identify if a x by y matrix is within a m by n matrix
 A:
 
+### Q: Given an array, find all pairs in the array that add up to number N. eg findSum([8, 3, 1, 2, 7, 4, 5], 9); should return (1, 8) (2, 7) and (4, 5).
+
+A. Sort the array, have two points starting at each end, increment or decrement the pointers based on sum comparison to the number N.
+
+### Q: Given an array, find all triples in the array that add up to number N. eg findSum([8, 3, 1, 2, 7, 4, 5], 9); should return (1, 3, 5).
+
+A. Same as above but include a middle pointer that searches with binary search.
+
 ### Q: Count the number of 2’s within a range R(0..N).  
 ```
 Example:
