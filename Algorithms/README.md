@@ -41,5 +41,3 @@ var image = [
 Example:
 (['Alice', 'Bob', 'Carlos', 'Diana']) => "Alice, Bob, Carlos and Diana"
 ```
-
-### Q: Say you had a system where you had a trillion+ test scores (integers from 0-1000) distributed over x nodes, and you could create whatever apis you wanted on those nodes. You need to write the “combiner” code that interfaces with those nodes and aggregates the responses to answer the question: what is the median value of those test scores?
