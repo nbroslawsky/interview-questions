@@ -31,3 +31,9 @@ var image = [
 // 1 = white
 // 0 = black
 ```
+
+### Q: Given an array of names, print them out separated them by appropriate conjunctions 
+```
+Example:
+(['Alice', 'Bob', 'Carlos', 'Diana']) => "Alice, Bob, Carlos and Diana"
+```
