@@ -11,6 +11,10 @@ A. Sort the array, have two points starting at each end, increment or decrement 
 
 A. Same as above but include a middle pointer that searches with binary search.
 
+### Q: Given an array of integers return an array of the two largest values.
+
+A. Do not sort array, that is nlogn. There is order n solution just by having two values and comparing them and setting them appropriately as you iterate down the array. There is a gotcha in what you might set highestNumber and secondHighest number to when you initialize. Do not initialize them to 0 since values in the array may be negative but you can set them to the first two values of the array providing the array passed in is that large.
+
 ### Q: Count the number of 2’s within a range R(0..N).  
 ```
 Example:
