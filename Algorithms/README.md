@@ -41,3 +41,23 @@ var image = [
 Example:
 (['Alice', 'Bob', 'Carlos', 'Diana']) => "Alice, Bob, Carlos and Diana"
 ```
+
+### Q: Given an n*n matrix return a matrix rotated by 90 degrees clockwise.
+```
+Example input:
+
+var matrix = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+];
+
+Example expected output:
+
+var rotatedMatrix = [
+    [7,4,1],
+    [8,5,2],
+    [9,6,3]
+];
+
+```
