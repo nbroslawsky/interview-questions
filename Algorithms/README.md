@@ -63,44 +63,53 @@ var rotatedMatrix = [
 ```
 
 
-1) implement a function that takes a string with no spaces and breaks it up into (any) valid collection of words. All letters must be used.
+### Q: implement a function that takes a string with no spaces and breaks it up into (any) valid collection of words. All letters must be used.
 Assume you have a helper function "bool isWord(str)" that returns true if the string is a valid single word.
+```
 Example input: [goodmorningworld]  output: [good, morning, world]
-example input: [anto]  output: [an, to]   note that "ant" isn't part of the solution since "o" is not a word.
+Example input: [anto]  output: [an, to]   note that "ant" isn't part of the solution since "o" is not a word.
+```
 
-2) You have an array of size N containing numbers [1, N-1]. Each number is in there once, except for one, which is in there twice. Find which value has the duplicate. Can do it in O(N) using no extra memory.
+### Q: You have an array of size N containing numbers [1, N-1]. Each number is in there once, except for one, which is in there twice. Find which value has the duplicate. Can do it in O(N) using no extra memory.
 
-3) Implement this behavior:
+### Q: Implement this behavior:
+```
 Example input: "[a[b[cd[ef]g]hi]j]"
 Example output: [ aj, bhi, cdg, ef ]  (order not important)
+```
 
-4) implement an LRU cache with get(key) and set(key,val) that run in constant time. when the cache has more than MAX items, drop oldest when adding new entry.
+### Q: implement an LRU cache with get(key) and set(key,val) that run in constant time. when the cache has more than MAX items, drop oldest when adding new entry.
 
-5) (html/js) when rendering a Pinterest board in the browser, how would you handle layout for the infinite staggered grid of pins? Perf concerns?
+### Q: (html/js) when rendering a Pinterest board in the browser, how would you handle layout for the infinite staggered grid of pins? Perf concerns?
 
-6) design (and implement interesting parts of) the standard Windows game MineSweeper. this question was by far the most fun interview question I ever had (if not exactly the hardest).
+### Q: design (and implement interesting parts of) the standard Windows game MineSweeper. this question was by far the most fun interview question I ever had (if not exactly the hardest).
 
-7) Given a list of numbers and a single number, return a subset of the list that sums to the single number.
+### Q: Given a list of numbers and a single number, return a subset of the list that sums to the single number.
+```
 Example input: [1,2,3,4,5], 9
 Example output: [4,5] or [2,3,4]  (either one is fine, don't need both)
+```
 
-8) (js knowledge) what's the difference between document.ready and onload?
-9) (js knowledge) say you have a table with 1000x1000 cells and you want to detect clicks on the cells, how to do so efficiently?
+### Q: (js knowledge) what's the difference between document.ready and onload?
 
-10) you are given a list of numbers. in the list, all numbers appear an even number of times, except one, which appears an odd number of times. find the value appearing an odd number of times. it can be done in O(N) with no external data structures.
+### Q: (js knowledge) say you have a table with 1000x1000 cells and you want to detect clicks on the cells, how to do so efficiently?
+
+### Q: you are given a list of numbers. in the list, all numbers appear an even number of times, except one, which appears an odd number of times. find the value appearing an odd number of times. it can be done in O(N) with no external data structures.
+```
 Example input: [2,3,4,2,3,4,2,3,4,2,3]
 Example output: 4
+```
 
-11) Sketch an algorithm for solving a standard Sudoku puzzle.
+### Q: Sketch an algorithm for solving a standard Sudoku puzzle.
 
-12) memblock problem: assume you have two low-level memory functions available:
+### Q: memblock problem: assume you have two low-level memory functions available:
  - readBlock(int blockNum, byte buf[])
  - writeBlock(int blockNum, byte buf[])
 where each will read or write an entire block of memory at a time. a block is B bytes. implement the following function:
   - writeBytes( int byteOffset, byte buf[], int numBytes)
 (i.e., how do you write aribtrary buffers if you only have block-based read/write available).
 
-13) describe in detail what happens when the browser requests a web page.
+### Q: describe in detail what happens when the browser requests a web page.
   - dns
   - http request headers, status code, etc
   - cache layer (cdn, varnish, etc)
